@@ -92,7 +92,9 @@ line-height: 160%;
 color: #000000;
 }
 @media screen and (max-width:1000px){
-
+    img{
+        max-width:100%;
+    }
         /* firstSection */
 
     .firstSection{
