@@ -1,0 +1,154 @@
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Raleway;
+}
+.convergenceof__section{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.convergenceofText > h1{
+    color: #000;
+    font-size: 58px;
+    font-weight: 300;
+    line-height: 64px;
+    max-width: 500px;
+}
+.spanFirst{
+    color: #71870E; 
+}
+.spanNature{
+    font-weight: 700;
+    color:#000000;
+}
+
+.convergenceofText > p{
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    max-width: 350px;
+    padding-left: 250px;
+}
+.more{
+    display: flex;
+}
+.more > div{
+    width: 70px;
+    height: 26px;
+    margin-right: 30px;
+    border-bottom: 1px solid #CD9A3D;
+}
+.more > p{
+    color: #CD9A3D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.convergenceofImage{
+    position: relative;
+}
+.absolutBlock{
+    position: absolute;
+    bottom: 150px;
+    right: -150px;
+}
+@media screen and (max-width:1100px){
+    .convergenceofText > h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .convergenceofText > p{
+        font-size: 13px;
+        padding-left: 100px;
+        line-height: 20px;
+    }
+    .forestImage{
+        width: 400px;
+    }
+    .absolutBlock{
+        bottom: 100px;
+    }
+    .absolutBlock > img{
+        width: 250px;
+    }
+}
+@media screen and (max-width:800px){
+    .convergenceof__section{
+        display: block;
+    }
+    .more{
+        margin-left: 100px;
+    }
+    .convergenceofText{
+        text-align: center;
+    }
+    .convergenceofText > h1{
+        max-width: 720px;
+    }
+    .convergenceofText > p{
+        padding-left: 0;
+        margin: 0 auto;
+        padding-bottom: 10px;
+    }
+    .more{
+        justify-content: center;
+    }
+    .convergenceofImage{
+        text-align: center;
+    }
+    .forestImage{
+        width: 50vh;
+        padding-left: 30px;
+    }
+    .absolutBlock{
+        bottom: -110px;
+        right: 117px;
+    }
+    .absolutBlock > img{
+        width: 250px;
+    }
+}
+@media screen and (max-width:600px){
+    .forestImage{
+        padding: 0;
+        width: 100%;
+    }
+    .absolutBlock{
+        bottom: -110px;
+        right: -25px;
+    }
+    .absolutBlock > img{
+        width: 80%;
+    }
+}
+@media screen and (max-width:600px){
+    .convergenceofText > h1{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .convergenceofText > p{
+        font-size: 8px;
+        line-height: 15px;
+    }
+    .more{
+        padding: 0;
+        justify-content: flex-end;
+    }
+    .more > div{
+        height: 20px;
+        margin-right: 10px;
+    }
+    .more > p{
+        color: #CD9A3D;
+        font-size: 10px;
+    }
+    .absolutBlock{
+        bottom: -110px;
+        right: -50px;
+    }
+    .absolutBlock > img{
+        width: 60%;
+    }
+}
